@@ -1,18 +1,23 @@
+package lesson2;
+
 public class FirstProgram {
 
     int arg1, arg2;
 
     public static void main(String[] args) {
-        System.out.println("Привет, Мир");
-long summa = summa(3, 5);
+        System.out.println("Привет, мир!");
+    long summa = summa(3, 5);
         System.out.println(summa);
-long otherSumma = summa(5, 5);
+    long otherSumma = summa(5, 5);
         System.out.println(otherSumma);
         long yetAnotherSumma = summa (2, 18);
         System.out.println(yetAnotherSumma);
 
         long resultOfMinus = minus(2, 18);
         System.out.println(resultOfMinus);
+
+        long result = multiplyAndSumma(5);
+        System.out.println(result);
     }
 
     /**
@@ -36,8 +41,9 @@ long otherSumma = summa(5, 5);
     }
 
         public static long multiplyAndSumma(int arg1) {
-        int result = 3 *  arg1 + 15;
+        int result = 3 * arg1 + 15;
         result = result - 38;
+        result = 15;
         return result;
     }
 }
