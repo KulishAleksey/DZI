@@ -1,14 +1,14 @@
 package lesson2;
 
-public class FirstProgram {
+public class SecondProgram {
 
     int arg1, arg2;
 
     public static void main(String[] args) {
         System.out.println("Привет, мир!");
-    long summa = summa(3, 5);
+long summa = summa(3, 5);
         System.out.println(summa);
-    long otherSumma = summa(5, 5);
+long otherSumma = summa(5, 5);
         System.out.println(otherSumma);
         long yetAnotherSumma = summa (2, 18);
         System.out.println(yetAnotherSumma);
@@ -41,9 +41,8 @@ public class FirstProgram {
     }
 
         public static long multiplyAndSumma(int arg1) {
-        int result = 3 * arg1 + 15;
+        int result = 3 *  arg1 + 15;
         result = result - 38;
-        result = 15;
         return result;
     }
 }
