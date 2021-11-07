@@ -1,7 +1,6 @@
 package lesson3;
 
 public class ThirdLessonRunner {
-
     public static void main(String[] args) {
         long summa = sum(35, 7);
         System.out.println("Сумма чисел 35 и 7 = " + summa);
@@ -12,14 +11,14 @@ public class ThirdLessonRunner {
         long multi = multiplication(35, 7);
         System.out.println("Умножение чисел 35 и 7 = " + multi);
 
-            double div = division(35, 7);
+        double div = division(35, 7);
         System.out.println("Деление чисел 35 и 7 = " + div);
 
         double result = pow(2, 4);
-        System.out.println("");
+        System.out.println("Возведение числа 2 в степень 4 = " + result);
 
         double module = mod(16, 3);
-        System.out.println("Остаток от деления числа 16 на 3 = " + module);
+        System.out.println("Остаток от деления  16 на 3 = " + module);
     }
 
     private static double division(int i, int i1) {
@@ -38,12 +37,11 @@ public class ThirdLessonRunner {
         return i + i1;
     }
 
-    private static long pow(int i, int i1) {
-        return i/i1;
-    }
-
     private static long mod(int i, int i1) {
-        return i/i1;
+        return i % i1;
     }
 
+    private static long pow(int i, int i1) {
+        return (long) Math.pow(i, i1); //
+    }
 }

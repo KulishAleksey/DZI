@@ -25,18 +25,19 @@ public class StandardPrimitives {
         boolean notValue = !value;
         boolean trueValue = true != false; // не рекомендуется использовать
         boolean complexAnd = (100 == 100) && (125 == 125); // true = true & true
-        boolean complexOr = (100 == 100) || (125 == 125); // true = true | true
+        boolean     complexOr = (100 == 100) || (125 == 125); // true = true | true
 
         if (value) {
             System.out.println("Переменная value истина");
         } else {
             System.out.println("Переменная value ложная");
         }
+
         double floatingPointValue = 1.5;
         if (2.5 == floatValue) {
             System.out.println("2.5 равно " + floatingPointValue);
         } else if (1 == 1) {
-            System.out.println("2.5 равно " + floatingPointValue + ". но 1 = 1");
+            System.out.println("2.5 не равно " + floatingPointValue + ", но 1 = 1");
         } else {
             System.out.println("2.5 не равно " + floatingPointValue);
         }
