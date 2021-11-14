@@ -6,11 +6,11 @@ public class IfElseRunner {
         int value = 25;
         int y = 100;
         if (value > 20) {
-            if (y <=100) {
+            if (y <= 100) {
                 y = 27;
             }
         } else {
             value = 14;
         }
-     }
+    }
 }

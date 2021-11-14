@@ -20,6 +20,7 @@ public class ThirdLessonRunner {
         double module = mod(16, 3);
         System.out.println("Остаток от деления  16 на 3 = " + module);
     }
+
     private static double division(int i, int i1) {
         return i / i1;
     }

@@ -25,7 +25,7 @@ public class StandardPrimitives {
         boolean notValue = !value;
         boolean trueValue = true != false; // не рекомендуется использовать
         boolean complexAnd = (100 == 100) && (125 == 125); // true = true & true
-        boolean     complexOr = (100 == 100) || (125 == 125); // true = true | true
+        boolean complexOr = (100 == 100) || (125 == 125); // true = true | true
 
         if (value) {
             System.out.println("Переменная value истина");

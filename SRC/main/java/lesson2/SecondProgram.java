@@ -6,11 +6,11 @@ public class SecondProgram {
 
     public static void main(String[] args) {
         System.out.println("Привет, мир!");
-long summa = summa(3, 5);
+        long summa = summa(3, 5);
         System.out.println(summa);
-long otherSumma = summa(5, 5);
+        long otherSumma = summa(5, 5);
         System.out.println(otherSumma);
-        long yetAnotherSumma = summa (2, 18);
+        long yetAnotherSumma = summa(2, 18);
         System.out.println(yetAnotherSumma);
 
         long resultOfMinus = minus(2, 18);
@@ -21,7 +21,8 @@ long otherSumma = summa(5, 5);
     }
 
     /**
-     *Метод будет складывать два аргумента и возвращать результат этой операции
+     * Метод будет складывать два аргумента и возвращать результат этой операции
+     *
      * @param arg1 первый аргумент
      * @param arg2 второй аргумент
      * @return результат сложения двух чисел
@@ -40,8 +41,8 @@ long otherSumma = summa(5, 5);
         return arg1 - arg2;
     }
 
-        public static long multiplyAndSumma(int arg1) {
-        int result = 3 *  arg1 + 15;
+    public static long multiplyAndSumma(int arg1) {
+        int result = 3 * arg1 + 15;
         result = result - 38;
         return result;
     }

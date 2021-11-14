@@ -6,8 +6,9 @@ public class TernarOperatorRunner {
         System.out.println(abs(-13));
 
     }
-    public static  int abs (int value) {
-        return value >= 0? value : -value;
+
+    public static int abs(int value) {
+        return value >= 0 ? value : -value;
 
     }
 }
