@@ -1,6 +1,7 @@
 package lesson5;
 
 public class IntRunner {
+
     public static void main(String[] args) {
         int i = 5;
         String str = "Привет";

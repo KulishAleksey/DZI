@@ -3,6 +3,7 @@ package lesson5;
 import java.util.Scanner;
 
 public class AdvancedScannerRunner {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите пожалуйсто число: ");
