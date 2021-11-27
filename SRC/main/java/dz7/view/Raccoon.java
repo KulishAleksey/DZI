@@ -1,13 +1,13 @@
-package dz7.dogs;
+package dz7.view;
 
 import java.util.Random;
 
-public class DogRandom extends Dog {
+public class Raccoon extends AnimalRunner {
 
     private final double MAX_RUN;
     private final double MAX_SWIM;
 
-    public DogRandom() {
+    public Raccoon() {
         Random random = new Random();
         MAX_RUN = random.nextDouble() * (600.01 - 1.0) + 1.0; // 1 - 400
         MAX_SWIM = random.nextDouble() * (10.01 - 1.0) + 1.0; // 1 - 10

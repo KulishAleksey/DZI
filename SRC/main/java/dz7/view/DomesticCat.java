@@ -1,6 +1,8 @@
-package dz7;
+package dz7.view;
 
-public class Cat extends Animal {
+import dz7.Event;
+
+public class DomesticCat extends Event {
     @Override
     public boolean run(double run) {
         return (run > 0 && run <= 200);

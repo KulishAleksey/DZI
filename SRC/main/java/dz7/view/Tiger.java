@@ -1,7 +1,7 @@
-package dz7.dogs;
+package dz7.view;
 
 
-public class DogSmall extends Dog {
+public class Tiger extends AnimalRunner {
 
     @Override
     public boolean run(double run) {
