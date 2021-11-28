@@ -1,8 +1,6 @@
 package dz7.view;
 
-import java.io.OutputStream;
-
-public class Dog extends AnimalRunner {
+public class Dog extends Metod {
 
     @Override
     public boolean run(double run) {

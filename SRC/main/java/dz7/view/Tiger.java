@@ -1,7 +1,7 @@
 package dz7.view;
 
 
-public class Tiger extends AnimalRunner {
+public class Tiger extends Metod {
 
     @Override
     public boolean run(double run) {

@@ -2,7 +2,7 @@ package dz7.view;
 
 import java.util.Random;
 
-public class Raccoon extends AnimalRunner {
+public class Raccoon extends Metod {
 
     private final double MAX_RUN;
     private final double MAX_SWIM;
