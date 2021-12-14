@@ -1,4 +1,4 @@
-package testhw7;
+package testhw8;
 
 class Animal {
 

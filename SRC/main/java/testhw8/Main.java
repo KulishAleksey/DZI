@@ -1,4 +1,4 @@
-package testhw7;
+package testhw8;
 
 public class Main {
     public static void main(String args[]) {
