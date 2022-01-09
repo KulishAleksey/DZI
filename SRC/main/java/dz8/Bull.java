@@ -1,3 +1,4 @@
+
 package dz8;
 
 public class Bull extends Animal {
