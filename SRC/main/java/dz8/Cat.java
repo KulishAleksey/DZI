@@ -1,3 +1,4 @@
+
 package dz8;
 
 class Cat extends Animal {
