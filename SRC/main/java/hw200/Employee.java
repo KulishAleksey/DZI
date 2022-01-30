@@ -1,4 +1,4 @@
-package hw20;
+package hw200;
 
 public class Employee {
     // это поля класса
